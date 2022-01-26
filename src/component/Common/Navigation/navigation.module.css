@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.logo__image img{
+    width: 50px;
+    height: 50px;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+}
+
+.list li {
+    padding: 0 1.2em;
+}
