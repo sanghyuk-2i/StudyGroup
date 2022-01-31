@@ -1,0 +1,77 @@
+input[type='text'], input[type='password'] {
+    width: 40vh;
+    height: 7vh;
+    border: 0;
+    background: #F3F3F3;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    border-radius: 10px;
+}
+
+input[type='checkbox'] {
+    margin: 1.1rem 0;
+}
+
+.checkBox label {
+    padding: 0 1rem;
+}
+
+::placeholder {
+    padding: 0 1rem;
+    font-size: 1.1em;
+}
+
+.login__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__main form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__main form input {
+    margin: 1rem 0;
+}
+
+.login__main button {
+    width: 200px;
+    height: 60px;
+    filter: drop-shadow(0px 20px 40px rgba(89, 86, 233, 0.2));
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #5956E9;
+    cursor: pointer;
+    margin: 1.5rem 0 0 0;
+}
+
+.google__button {
+    width: 40vh;
+    height: 5vh;
+    border: 0;
+    margin: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google__button > * {
+    padding: 0 1rem;
+}
+
+.google__button span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.login__signup span{
+    padding: 0 1rem;
+}

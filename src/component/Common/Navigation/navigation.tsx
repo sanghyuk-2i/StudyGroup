@@ -1,6 +1,9 @@
 import React from 'react';
-import { Navi } from '../../Main/main';
 import styles from './navigation.module.css';
+
+type Navi = {
+    naviData: string[];
+};
 
 const Navigation = ({ naviData }: Navi) => {
     
@@ -10,7 +13,9 @@ const Navigation = ({ naviData }: Navi) => {
                 <div className={styles.logo__image}>
                     <img src="./img/react.png" alt="logo" />
                 </div>
-                <div className={styles.logo__text}></div>
+                <div className={styles.logo__text}>
+                    <span>React</span>
+                </div>
             </div>
             <div className={styles.list}>
                 <ul>
