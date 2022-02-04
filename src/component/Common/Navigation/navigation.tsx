@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './navigation.module.css';
+import { Link } from 'react-router-dom';
 
 type Navi = {
     naviData: string[];
+    linkData: string[];
 };
 
-const Navigation = ({ naviData }: Navi) => {
+const Navigation = ({ naviData, linkData }: Navi) => {
     
     return (
         <div className={styles.container}>
@@ -20,7 +22,7 @@ const Navigation = ({ naviData }: Navi) => {
             <div className={styles.list}>
                 <ul>
                     {
-                        naviData.map((item, idx) => <li key={`naviData_${idx}`}>{item}</li>)
+                        naviData.map((item, idx) => <li key={`naviData_${idx}`}><Link className={styles.link} to={linkData[idx]}>{item}</Link></li>)
                     }
                 </ul>
             </div>
