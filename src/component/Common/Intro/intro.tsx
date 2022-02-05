@@ -9,9 +9,10 @@ export type Btn = {
 
 type Introduct = {
     introData: string[];
+    needButton: boolean;
 };
 
-const Intro = ({ introData }: Introduct) => {
+const Intro = ({ introData, needButton }: Introduct) => {
     const handleClick = () => {console.log('clicked!')}
     return (
         <div className={styles.container}>
@@ -19,7 +20,9 @@ const Intro = ({ introData }: Introduct) => {
                 <h2>{introData[0].split(',')[0]}<br />{introData[0].split(',')[1]}</h2>
                 <span>{introData[1]}</span>
             </div>
-            <Button text="지금 등록" click={handleClick} />
+            {
+                needButton && <Button text="지금 등록" click={handleClick} />
+            }
         </div>
     );
 };

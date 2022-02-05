@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Login from '../../Login/login';
+import Content from '../../Login/Content/content';
 import styles from './sandbox.module.css';
 
 type BoxElements = {
@@ -15,7 +15,7 @@ const Sandbox = ({ checkImage, checkSubmit }: BoxElements) => {
             {
                 (isImg) ? <img src="./img/background-2.png" alt="" /> 
                 : <div className={styles.container__box}>
-                    <Login />
+                    <Content />
                 </div>
             }
         </div>
