@@ -1,4 +1,4 @@
-input[type='text'], input[type='password'] {
+.login__main input[type='text'], input[type='password'] {
     width: 40vh;
     height: 7vh;
     border: 0;

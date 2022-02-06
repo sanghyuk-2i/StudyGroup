@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    height: calc(100vh - 85px);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form > * {
+    margin: 1.5rem 0;
+}
+
+.form__up {
+    display: flex;
+}
+
+.form__up > * {
+    padding: 0 1.1rem;
+}
+
+.form__down {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__down > * {
+    margin: 4px 0;
+}
+
+.form__down textarea {
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.form__container {
+    display: flex;
+}
+
+
