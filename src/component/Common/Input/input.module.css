@@ -8,10 +8,26 @@
     margin: 4px 0
 }
 
-.input {
+.input__common {
     border: 1px solid rgba(0, 0, 0, 0.38);
     box-sizing: border-box;
     border-radius: 8px;
+    width: 240px;
     height: 48px;
 }
 
+.input__text {
+    width: 513px;
+}
+
+.input__select {
+
+}
+
+.input__time {
+
+}
+
+.input__date {
+
+}

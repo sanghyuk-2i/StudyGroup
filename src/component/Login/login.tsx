@@ -13,7 +13,7 @@ const Login = () => {
     const initialData: LoginData = {
         intro: [`함께 고민해서, A+도 받고 친해져요!`, '강의 시간에 말을 걸지 못한 순간을 여기서 자유롭게 해결하세요.'],
         checkImage: false,
-        checkSubmit: true,
+        checkSubmit: false,
     };
 
     return (

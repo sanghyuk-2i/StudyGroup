@@ -5,8 +5,13 @@
     align-items: center;
 }
 
+.title {
+    font-size: 3rem;
+    padding: 0 2rem 1rem 2rem;
+}
+
 .form > * {
-    margin: 1.5rem 0;
+    margin: 2.5rem 0;
 }
 
 .form__up {
@@ -20,6 +25,7 @@
 .form__down {
     display: flex;
     flex-direction: column;
+    padding: 0 2rem;
 }
 
 .form__down > * {
