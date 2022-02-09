@@ -17,10 +17,10 @@ const Sandbox = ({ checkImage, checkSubmit }: BoxElements) => {
                 (isImg) ? <img src="./img/background-2.png" alt="" /> 
                 : <div className={styles.container__box}>
                     <Content />
-                    {
-                        (checkSubmit) && <Button text="등록" click={() => console.log('clicked!')} />
-                    }
                 </div>
+            }
+            {
+                (checkSubmit) && <Button text="등록" click={() => console.log('clicked!')} />   
             }
         </div>
     );

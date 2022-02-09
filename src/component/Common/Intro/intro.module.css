@@ -6,7 +6,7 @@
 }
 
 .introText {
-    padding: 0 0 2rem 4.5rem;
+    padding: 0 0 2rem 0;
 }
 
 .introText h2 {
@@ -19,7 +19,4 @@
     padding: 2rem 0 4rem 0;
 }
 
-Button {
-    margin-left: 4.5rem;
-}
 

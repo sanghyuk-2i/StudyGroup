@@ -1,16 +1,24 @@
+.c {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
-    height: calc(100vh - 85px);
-    justify-content: space-around;
-    align-items: center;
+    height: calc(100vh - 169px);
+    justify-content: space-evenly;
 }
 
 .title {
     font-size: 3rem;
-    padding: 0 2rem 1rem 2rem;
+    padding: 2rem 0 0 5.6rem;
 }
 
-.form > * {
+.form {
+    padding-top: 5rem;
+}
+
+.form > .form__up {
     margin: 2.5rem 0;
 }
 

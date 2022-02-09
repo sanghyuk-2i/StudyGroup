@@ -2,4 +2,5 @@
     display: flex;
     flex: 3 1;
     height: calc(100vh - 85px);
+    padding-left: 5rem;
 }
